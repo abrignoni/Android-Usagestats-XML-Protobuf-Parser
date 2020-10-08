@@ -1,8 +1,10 @@
 # Android Usagestats XML & Protobuf Parser  
+This is an updated fork of the repository from here:
+https://github.com/abrignoni/Android-Usagestats-XML-Protobuf
 
-![alt text](/usage%20example.PNG "Usage example")
+It is modified to make it suitable for a autopsy module.
 
-To view details on the script and accompanying SQL query see the blogpost here:  
+To view details on the original script and accompanying SQL query see the blogpost here:  
 https://abrignoni.blogspot.com/2019/02/android-usagestats-xml-parser.html 
 
 Usage:  
@@ -14,7 +16,10 @@ Usage:
 6. Export the results and/or modify SQL query as needed.  
 
 This now works with both XML based usagestats as well as the newer Protocol buffer one.
-For Protocol buffer support the following is a pre-requirement: pip install protobuf
 
-Thanks and all credit go to Yogesh Khatri for protobuf support. FOr more information see the following blogpost:
-https://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html
+## Requirements
+- protobuf
+
+## Credits
+- abrignoni, for the original code: https://github.com/abrignoni/Android-Usagestats-XML-Protobuf
+- Yogesh Khatri, for protobuf support: https://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html
